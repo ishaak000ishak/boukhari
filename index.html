@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developing Algeria Towards Advanced Nations</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <style>
+ body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f9fc;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #2a3b7d;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            background-image: url('https://via.placeholder.com/1500x500'); /* إضافة صورة خلفية */
+            background-size: cover;
+            background-position: center;
+        }
+        header h1 {
+            font-size: 3.5em;
+            font-weight: 600;
+            margin: 0;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
+        }
+        nav ul li a {
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 12px 18px;
+            transition: all 0.4s ease;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background-color: #ffcc00;
+            color: #2a3b7d;
+        }
+        section {
+            padding: 20px;
+            margin: 40px auto;
+            width: 80%;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+        }
+        section h2 {
+            font-size: 2em;
+            color: #2a3b7d;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        button {
+            background-color: #004d99;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s ease-in-out;
+        }
+        button:hover {
+            background-color: #003366;
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+        footer {
+            background-color: #2a3b7d;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+        }
+        #feedback textarea {
+            width: 70%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            resize: vertical;
+        }
+        #feedback button {
+            margin-top: 10px;
+        }
+        #progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 5px;
+            background-color: #ffcc00;
+            width: 0%;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How to Make Algeria One of the Developed Countries</h1>
+        <nav>
+            <ul>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#economy">Economy</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#healthcare">Healthcare</a></li>
+                <li><a href="#infrastructure">Infrastructure</a></li>
+                <li><a href="https://www.algeria-tourism.com" target="_blank">Tourism</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <img src="https://i.pinimg.com/736x/e4/93/11/e4931155cd0b603b4169a26a10b924de.jpg" alt="Education sector in Algeria">
+        <p>Enhancing education through modern curricula, teacher training, and technology integration.</p>
+    </section>
+    
+    <section id="economy">
+        <h2>Economy</h2>
+        <img src="https://i.pinimg.com/736x/04/b7/6e/04b76ee9958a89765ed3af73e3f54d05.jpg" alt="Economic development in Algeria">
+        <p>Boosting economic growth by supporting startups, foreign investments, and entrepreneurship.</p>
+    </section>
+    
+    <section id="technology">
+        <h2>Technology and Innovation</h2>
+        <img src="https://i.pinimg.com/736x/2c/35/c4/2c35c46c9da18ffa1dc02ba1487ed0e5.jpg" alt="Technological advancements in Algeria">
+        <p>Investing in research and modern technology to drive innovation in various sectors.</p>
+    </section>
+    
+    <section id="healthcare">
+        <h2>Healthcare</h2>
+        <img src="https://i.pinimg.com/736x/f2/ad/1b/f2ad1bc0c5e8f0d24f6a0182ad32781c.jpg" alt="Healthcare development in Algeria">
+        <p>Improving healthcare infrastructure and medical research for better services.</p>
+    </section>
+    
+    <section id="infrastructure">
+        <h2>Infrastructure</h2>
+        <img src="https://i.pinimg.com/736x/ea/28/23/ea2823d66308392e8bbed03350656d8a.jpg" alt="Infrastructure projects in Algeria">
+        <p>Enhancing roads, transport, and communication systems to support development.</p>
+    </section>
+    
+    <section id="tourism">
+        <h2>Tourism</h2>
+        <img src="https://i.pinimg.com/736x/4a/60/7b/4a607bdad575c1a996a5a82b6a25b75a.jpg" alt="Tourism in Algeria">
+        <p>Developing tourism by improving services and promoting cultural heritage.</p>
+        <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+            <img src="https://i.pinimg.com/736x/b7/23/53/b72353713ef65ecf433307b818083a9f.jpg" alt="Timgad - Ancient Roman ruins" style="width: 30%; border-radius: 10px;">
+            
+            <img src="https://i.pinimg.com/736x/39/b2/4f/39b24f377fb777b56b5d6f1c6917ec13.jpg" alt="Hoggar Mountains - Majestic desert landscape" style="width: 30%; border-radius: 10px;">
+            <img src="https://i.pinimg.com/736x/b8/8d/84/b88d84ecc2bad259ff5652a4c90d4893.jpg" alt="Jijel Beaches - Stunning Mediterranean coastline" style="width: 30%; border-radius: 10px;">
+            <img src="https://i.pinimg.com/736x/2f/4b/24/2f4b24102b2d4e989ac65c13d837277c.jpg" alt="Ghardaïa - Historic M'zab Valley architecture" style="width: 30%; border-radius: 10px;">
+            <img src="https://i.pinimg.com/736x/df/8c/e0/df8ce0a5eaffa14cc07be211fe2d493a.jpg" alt="Casbah of Algiers - UNESCO heritage site" style="width: 30%; border-radius: 10px;">
+            <img src="https://i.pinimg.com/736x/6e/a8/32/6ea832acba3cba08559e05375f53a1da.jpg" alt="Taghit - Beautiful golden sand dunes" style="width: 30%; border-radius: 10px;">
+        </div>
+    </section>
+    
+    <button onclick="showMessage()">Click here for more</button>
+    <p id="message" style="display:none; font-weight: bold; color: #004d99;">Collaboration between the government and citizens is key to sustainable development.</p>
+    
+    <footer>
+        <p>&copy; ishak.bkh.</p>
+    </footer>
+    
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
